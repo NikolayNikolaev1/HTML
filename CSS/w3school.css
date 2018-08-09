@@ -1,0 +1,18 @@
+.my-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+ul {
+    padding: 0px;
+}
+li {
+    float: left;
+    width: auto;
+    list-style: outside none none;
+}
+
+body {
+    margin: 0;
+}
