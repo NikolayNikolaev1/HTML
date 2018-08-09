@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="model-header ng-scope ng-binding">
+    Anmelden
+</div>
+<div class="model-body ng-scope">
+    <div ng-show="success !== null && success == false" class="alert alert-error ng-scope ng-hide" translate="">
+        Benutzername und Password stimmen nicht uberein.
+    </div>
+    <input type="text" placeholder="E-Mail" class="input-block-level empty ng-dirty ng-invalid ng-invalid-required" name="username" ng-model="username" required="">
+    <input type="text" placeholder="" class="input-block-level ng-pristine ng-valid empty" name="" ng-model="password" required="required" value="Passwort" id="">
+    <input type="password" placeholder="Passwort" class="input-block-level ng-dirty ng-invalid ng-invalid-required empty ng-hide" name="password" ng-model="password" required="">
+    <button class="btn btn-link pull-left ng-scope" ng-click="forgotpassword()" translate="" stop-event="submit">Passwort vergessen</button>
+    <label ng-show="settings.CST_LOGIN_HAS_REMEMBER_ME" class="checkbox pull-right ng-binding">
+        <input type="checkbox" name="rememberme" ng-model="rememberme" class="ng-pristine ng-valid"> Eingeloggt bleiben
+    </label>
+</div>
+<div class="modal-footer ng-scope ng-binding">
+    <button ng-if="settings.CST_LOGIN_HAS_REGISTER" class="btn pull-left ng-scope ng-binding" ng-click="register()">Konto erstellen</button><!-- end ngIf: settings.CST_LOGIN_HAS_REGISTER -->
+    <button class="btn ng-binding" ng-click="login(username,password,rememberme)">Anmelden</button>
+
+    <button class="btn ng-scope ng-binding" ng-click="optional()">Ohne Konto fortfahren</button><!-- end ngIf: settings.CST_HAS_LOGIN_OPTIONAL -->
+</div>
+
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
