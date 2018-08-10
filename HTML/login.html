@@ -12,25 +12,28 @@
 <div class="model-header ng-scope ng-binding">
     Anmelden
 </div>
+
+
 <div class="model-body ng-scope">
+    <!-- Error message for wrong E-Mail or/and Password  -->
     <div ng-show="success !== null && success == false" class="alert alert-error ng-scope ng-hide" translate="">
         Benutzername und Password stimmen nicht uberein.
     </div>
+    <!-- E-Mail and Password -->
     <input type="text" placeholder="E-Mail" class="input-block-level empty ng-dirty ng-invalid ng-invalid-required" name="username" ng-model="username" required="">
     <input type="text" placeholder="" class="input-block-level ng-pristine ng-valid empty" name="" ng-model="password" required="required" value="Passwort" id="">
-    <input type="password" placeholder="Passwort" class="input-block-level ng-dirty ng-invalid ng-invalid-required empty ng-hide" name="password" ng-model="password" required="">
-    <button class="btn btn-link pull-left ng-scope" ng-click="forgotpassword()" translate="" stop-event="submit">Passwort vergessen</button>
-    <label ng-show="settings.CST_LOGIN_HAS_REMEMBER_ME" class="checkbox pull-right ng-binding">
+    <!-- <input type="password" placeholder="Repeat Passwort" class="input-block-level ng-dirty ng-invalid ng-invalid-required empty ng-hide" name="password" ng-model="password" required=""> -->
+    <!-- Forgot Password Button and Remember Password checkbox -->
+    <button class="btn btn-link pull-left ng-scope"  translate="" stop-event="submit">Passwort vergessen</button>
+    <label class="checkbox pull-right ng-binding">
         <input type="checkbox" name="rememberme" ng-model="rememberme" class="ng-pristine ng-valid"> Eingeloggt bleiben
     </label>
 </div>
+
 <div class="modal-footer ng-scope ng-binding">
-    <button ng-if="settings.CST_LOGIN_HAS_REGISTER" class="btn pull-left ng-scope ng-binding" ng-click="register()">Konto erstellen</button><!-- end ngIf: settings.CST_LOGIN_HAS_REGISTER -->
+    <button ng-if="settings.CST_LOGIN_HAS_REGISTER" class="btn pull-left ng-scope ng-binding" ng-click="register()">Konto erstellen</button>
     <button class="btn ng-binding" ng-click="login(username,password,rememberme)">Anmelden</button>
-
-    <button class="btn ng-scope ng-binding" ng-click="optional()">Ohne Konto fortfahren</button><!-- end ngIf: settings.CST_HAS_LOGIN_OPTIONAL -->
-</div>
-
+    <button class="btn ng-scope ng-binding" ng-click="optional()">Ohne Konto fortfahren</button>
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

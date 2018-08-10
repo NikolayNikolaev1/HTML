@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Subscription</title>
+    <link rel="stylesheet" href="../CSS/subscription.css">
+</head>
+<body>
+<div>
+    <div class="modal-header ng-scope" translate="">Wählen Sie Ihr Abonnement</div>
+</div>
+<div class="modal-body">
+    <p ng-repeat="option in subscription" class="ng-scope">
+        <a href="" class="btn btn-primary btn-block ng-binding" ng-click="purchase_subscription(option)">Halbjahres Abonnement (CHF 99.00)</a>
+    </p>
+    <p ng-repeat="option in subscription" class="ng-scope">
+        <a href="" class="btn btn-primary btn-block ng-binding" ng-click="purchase_subscription(option)">Abo 3 Monate (CHF 2.00)</a>
+    </p>
+    <p ng-repeat="option in subscription" class="ng-scope">
+        <a href="" class="btn btn-primary btn-block ng-binding" ng-click="purchase_subscription(option)">Abo 6 Monate (CHF 3.00)</a>
+    </p>
+    <p ng-repeat="option in subscription" class="ng-scope">
+        <a href="" class="btn btn-primary btn-block ng-binding" ng-click="purchase_subscription(option)">2 Month-Sbuscription (CHF 1.00)</a>
+    </p>
+    <p ng-repeat="option in subscription" class="ng-scope">
+        <a href="" class="btn btn-primary btn-block ng-binding" ng-click="purchase_subscription(option)">3 Month-Sbuscription (CHF 1.00)</a>
+    </p>
+    <p ng-repeat="option in subscription" class="ng-scope">
+        <a href="" class="btn btn-primary btn-block ng-binding" ng-click="purchase_subscription(option)">6 Month-Sbuscription (CHF 1.00)</a>
+    </p>
+</div>
+<div class="modal-footer ng-scope">
+    <button class="btn ng-scope" ng-click="cancel()" translate="">Abbrechen</button>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

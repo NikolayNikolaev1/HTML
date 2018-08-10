@@ -100,7 +100,7 @@ label, input, button, select, textarea {
     line-height: 20px;
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 600px) {
     input, textarea, .uneditable-input {
         margin-left: 0;
     }
@@ -150,12 +150,12 @@ input, textarea, select, button {
     text-shadow: 0 1px 1px rgba(255,255,255,0.75);
 }
 
-.pull-left {
-    float: left;
-}
-
 .pull-right {
     float: right;
+}
+
+.pull-left {
+    float: left;
 }
 
 a, input, textarea, button {
@@ -209,6 +209,18 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
     border-top-color: #ffffff;
 }
 
+.modal-footer:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.modal-footer:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
 .btn {
     display: inline-block;
     padding: 4px 12px;
@@ -221,6 +233,8 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
     color: #333;
     text-shadow: 0 1px 1px rgba(255,255,255,0.75);
     background-color: #666666;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
 }
 
 .modal-footer .btn + .btn {
@@ -228,8 +242,30 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
     margin-bottom: 0;
 }
 
-.modal-footer .btn, .sidebar-nav .btn, .navbar .btn {
+.modal-footer .btn, .btn{
     color: #ffffff;
     text-shadow: none;
     background-color: #666666;
+}
+
+.modal .modal-footer .btn {
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #666666;
+    background-image: linear-gradient(to bottom,#666666,#666666);
+    background-repeat: repeat-x;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+}
+
+@media screen and (max-width: 400px) {
+    .modal .modal-footer .btn {
+        width: 100% !important;
+        margin: 10px 0 !important;
+        color: #ffffff;
+        text-shadow: none;
+        background-color: #666666;
+        background-image: linear-gradient(to bottom,#666666,#666666);
+        background-repeat: repeat-x;
+        border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    }
 }
