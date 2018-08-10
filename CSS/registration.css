@@ -1,0 +1,264 @@
+body {
+    background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    color: #222;
+}
+
+html {
+    min-height: 100%;
+}
+
+html input[disabled] {
+    cursor: default;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+div {
+    display: block;
+}
+
+p, pre {
+    margin: 1em 0;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+form {
+    margin: 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.input-fieldset {
+    margin-bottom: 4%;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+html, button, input, select, textarea {
+    color: #222;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 3% 7.5%;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.input-wrapper:first-child .input-field, .input-wrapper:only-child .input-field, .captcha-wrapper {
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid #ccc;
+}
+
+
+.input-field, .captcha-wrapper {
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-radius: 0;
+}
+.input-field {
+    padding: 2.5%;
+    width: 100%;
+}
+
+#logo {
+    margin-top: 5%;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.tip {
+    z-index: 99;
+    position: absolute;
+    background-color: #bd1421;
+    border: 1px solid #9c0914;
+    color: white;
+    width: 98.4%;
+    padding: 0.1% 0.8%;
+    opacity: 0.9;
+    font-size: 0.8em;
+}
+
+.tip .arrow {
+    position: absolute;
+    right: 1%;
+    top: -6px;
+    margin-right: 6px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #bd1421;
+}
+
+.forms_container {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+input[type="submit"] {
+    -webkit-appearance: button;
+}
+
+.button {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    background: -moz-linear-gradient(top, #f3f3f3 0%, #ccc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(100%,#ccc));
+    background: -webkit-linear-gradient(top, #f3f3f3 0%,#ccc 100%);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    border: 0;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-bottom: 4%;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.button {
+    display: block;
+    padding: 2.5%;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+button, input {
+    line-height: normal;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}

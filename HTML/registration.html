@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/registration.css">
+    <title>Registration</title>
+</head>
+<body>
+<div class="main-container">
+    <div class="main wrapper clearfix">
+        <div class="clearfix">
+            <img id="logo" src="../Images/logo.png" alt="logo" style="display: block; width: 100%;" onload="this.width/=2;this.onload=null;this.style.display = 'block'" width="460">
+        </div>
+    <h1 class="title">Kontoerstellung</h1>
+    <p class="text">Erstellen Sie ein kostenloses Konto und Sie haben Ihre gewünschten Dokumente stets griffbereit - egal auf welchem Gerät.</p>
+    <form>
+        <fieldset class="input-fieldset">
+            <div class="input-wrapper"><input id="username" class="input-field" type="text" name="username" autofocus="" placeholder="E-Mail" autocapitalize="off" autocomplete="off" value="">
+                <!--Error for empty or invalid E-Mail-->
+                <div class="tip"><div class="arrow"></div>E-Mail leer oder ungültiges Format</div>
+            </div>
+            <div class="input-wrapper"><input id="password" class="input-field" type="password" name="password" placeholder="Passwort" value="">
+                <!--Error for empty or short Password-->
+                <div class="tip"><div class="arrow"></div>Passwort leer oder zu kurz (mindestens 4 Zeichen)</div>
+            </div>
+            <div class="input-wrapper"><input id="password-repeat" class="input-field" type="password" name="password_repeat" placeholder="Passwort bestätigen" value="">
+                <!--Error for not matching Password-->
+                <div class="tip"><div class="arrow"></div>Passwörter stimmen nicht überein</div>
+            </div>
+        </fieldset>
+
+        <div class="forms_container"></div>
+
+        <input id="submit" type="submit" name="submit" value="Konto erstellen" disabled="disabled" class="button">
+        <input id="cancel" type="button" name="cancel" value="Abbrechen" class="button">
+    </form>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
