@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/book-information.css">
+    <title>Book Information</title>
+</head>
+<body>
+<div>
+    <div ng-if="responsive('>= medium')" class="modal-body library-detail ng-scope">
+        <div class="row-fluid">
+            <div class="span4 library-detail-cover-column">
+                <div class="cover-shadow cover-wrapper ng-isolate-scope" publication="publication()" size="large"><img class="cover" src="../Images/book-cover.png"></div>
+            </div>
+            <div class="span8 library-detail-controls-column">
+                <h4 class="media-heading title ng-binding">Tribe new</h4>
+                <h5 class="teaser ng-binding">Für die vollautomatische Anzeigenverwaltung</h5>
+                <div class="library-detail-button-wrapper row-inline">
+                    <div class="row-fluid" ng-show="publication().hide_single_button != 1">
+                        <div class="row-fluid" ng-show="publication().hide_single_button != 1">
+                            <div class="span6">
+                                <a id="submitBtn" ng-click="purchase_issue(publication())" class="btn btn-small btn-block btn-primary ng-binding">
+                                    Kaufen (CHF 1.00)
+                                </a>
+                            </div>
+                            <div class="span6 ng-scope" translate="">Einzelausgabe</div>
+                        </div>
+                        <!-- Hidden Button - Lessen (ng-hide) -->
+                        <div class="row-fluid ng-hide" ng-show="publication().hide_single_button == 1">
+                            <div class="span6"><a href="" ng-click="read(publication())" class="btn btn-small btn-block btn-primary ng-scope" translate="">Lesen</a></div>
+                            <div class="span6"></div>
+                        </div>
+                        <div class="row-fluid" ng-show="publication().subscription.length > 0 &amp;&amp; publication().hide_abo_button != 1 &amp;&amp; publication().hide_single_button != 1">
+                            <div class="span6"><a href="" ng-click="open_subscription(publication().subscription)" class="btn btn-small btn-block btn-primary ng-scope" translate="">Wählen</a></div>
+                            <div class="span6 ng-scope" translate="">Abonnement</div>
+                        </div>
+                        <div class="row-fluid ng-scope" ng-if="settings.CST_PURCHASE_POPUP_HAS_REDEEM_VOUCHER_BUTTON">
+                            <div class="span6 ng-scope" ng-controller="VoucherCtrl"><a href="" ng-click="openVoucherModal()" class="btn btn-small btn-block btn-primary ng-scope" translate="">Einlösen</a></div>
+                            <div class="span6 ng-binding">Freischaltcode</div>
+                        </div>
+                        <div class="row-fluid ng-scope" ng-if="settings.CST_PURCHASE_POPUP_HAS_SUBSCRIBER_BUTTON">
+                            <div class="span6 ng-scope" ng-controller="LoginCtrl"><a href="" ng-click="open()" class="btn btn-small btn-block btn-primary ng-scope" translate="">Login</a></div>
+                            <div class="span6 ng-scope" translate="">Abonnenten</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
