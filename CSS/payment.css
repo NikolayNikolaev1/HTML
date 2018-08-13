@@ -26,7 +26,9 @@ p {
 a {
     outline-style: none !important;
     text-decoration: none;
+    color: white;
 }
+
 
 .modal {
     overflow: hidden;
@@ -73,7 +75,7 @@ a {
     padding: 15px;
 }
 
-.modal-huge .btn-primary, .modal-mini .btn-primary {
+.modal-mini .btn-primary {
     color: #ffffff;
 }
 
@@ -127,19 +129,35 @@ a {
     background-repeat: repeat-x;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+    .modal {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .modal {
+        position: fixed;
+        width: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .app {
         overflow-x: hidden;
     }
 }
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     body {
         padding: 50px 5px 0;
     }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .app {
         overflow-x: hidden;
     }
