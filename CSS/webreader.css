@@ -1,19 +1,11 @@
-.my-bar {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: gray;
-}
-
-ul {
-    padding: 0px;
-}
-li {
-    float: left;
-    width: auto;
-    list-style: outside none none;
+body {
+    padding-top: 41px;
+    padding-bottom: 41px;
+    overflow: auto;
 }
 
 body {
+    min-height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -22,26 +14,103 @@ body {
     background-color: #ffffff;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'tabook';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+body {
+    display: block;
 }
 
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    -webkit-transition: border linear .2s, box-shadow linear .2s;
-    -moz-transition: border linear .2s, box-shadow linear .2s;
-    -o-transition: border linear .2s, box-shadow linear .2s;
-    transition: border linear .2s, box-shadow linear .2s;
+body.app {
+    position: relative;
+}
+
+div, nav {
+    display: block;
+}
+
+.navbar {
+    overflow: visible;
+    margin-bottom: 20px;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+}
+
+.navbar-fixed-top {
+    top: 0;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+}
+
+.navbar .btn, .navbar .btn-group {
+    margin-top: 5px;
+}
+
+.modal-footer .container-fluid, .sidebar-nav .container-fluid, .navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.modal-footer .btn:active, .modal-footer .btn.active, .sidebar-nav .btn:active, .sidebar-nav .btn.active, .navbar .btn:active, .navbar .btn.active {
+    background-image: none;
+    outline: 0;
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #72bf44;
+    background-image: linear-gradient(to bottom,#72bf44,#72bf44);
+    background-repeat: repeat-x;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+}
+
+.btn-group {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.pull-right {
+    float: right;
+}
+
+@media screen and (min-width: 1200px) {
+     .app #wrapper {
+        background-color: #ffffff;
+        width: 1200px;
+         height: 1910px;
+        margin: 0 auto;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (min-width: 1200px) {
+    .no-touch .app .navbar-fixed-bottom, .no-touch .app .navbar-fixed-top {
+        margin: 0 auto;
+        width: 1200px;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+    }
+}
+
+@media (min-width: 980px) {
+    .nav-collapse.collapse {
+        height: auto !important;
+        overflow: visible !important;
+    }
 }

@@ -1,0 +1,103 @@
+
+
+div {
+    display: block;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    display: table;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    width: auto \9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+element.style {
+    width: 33px;
+    height: 46.6125px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table thead th {
+    vertical-align: bottom;
+}
+
+.table th, .table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+.cover-wrapper {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cover-wrapper .cover {
+    display: inline-block;
+    max-width: 100% !important;
+    max-height: 100%;
+}
+
+@media (min-width: 1200px) {
+    [class*="span"] {
+        float: left;
+        min-height: 1px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .span9 {
+        width: 870px;
+    }
+}
