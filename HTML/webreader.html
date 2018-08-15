@@ -11,6 +11,31 @@
     <title>WebReader</title>
 </head>
 <body class="app">
+<div id="wrapper" class="app-wrapper ng-scope">
+    <div id="content-wrapper" class="ng-scope">
+        <div id="header" class="navbar navbar-fixed-top ng-scope"  ui-view="navigation>
+            <header class="navbar-inner ng-scope">
+                <div class="container-fluid">
+
+                    <div class="nav-collapse collapse navbar-responsive-colapse ng-scope">
+                        <nav class="pull-right">
+                            <a ui-sref="app.library.tile" class="btn ng-class:{active:$state.includes('app.library')} ng-binding active" href="#/library/tile">Bibliothek</a>
+                        </nav>
+
+                        <nav>
+                            <div class="btn-group">
+                                <a href="#" class="btn"><i class="icon-view-tile"></i></a>
+                                <a href="#" class="btn"><i class="icon-view-list"></i></a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <br>
+
+
 
         <div>
             <input id="myInput" type="text" placeholder="Search..">

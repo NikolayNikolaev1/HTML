@@ -89,7 +89,6 @@ div, nav {
      .app #wrapper {
         background-color: #ffffff;
         width: 1200px;
-         height: 1910px;
         margin: 0 auto;
         border-left: 1px solid #cccccc;
         border-right: 1px solid #cccccc;
@@ -99,12 +98,18 @@ div, nav {
     }
 }
 
-@media (min-width: 1200px) {
-    .no-touch .app .navbar-fixed-bottom, .no-touch .app .navbar-fixed-top {
+@media screen and (min-width: 1200px) {
+     .app .navbar-fixed-bottom, .app .navbar-fixed-top {
         margin: 0 auto;
         width: 1200px;
         border-left: 1px solid #cccccc;
         border-right: 1px solid #cccccc;
+    }
+}
+
+@media (min-width: 1200px) {
+     .app {
+        background-color: #f3f3f3;
     }
 }
 
