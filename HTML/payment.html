@@ -8,18 +8,18 @@
 </head>
 <body>
 <div class="modal">
-    <div class="modal-header ng-scope" translate="">Wählen Sie Ihre bevorzugte Zahlungsmethode</div>
-    <div class="modal-body ng-scope">
-        <p ng-repeat="option in provider" class="ng-scope">
-            <a href="" class="btn btn-primary btn-block ng-binding" ng-click="choose(option)">Paypal (International)</a>
+    <div class="modal-header" translate="">Wählen Sie Ihre bevorzugte Zahlungsmethode</div>
+    <div class="modal-body">
+        <p>
+            <a href="" class="btn btn-primary btn-block">Paypal (International)</a>
         </p>
-        <p ng-repeat="option in provider" class="ng-scope">
-            <a href="" class="btn btn-primary btn-block ng-binding" ng-click="choose(option)">Yellowpay (Schweiz)</a>
+        <p>
+            <a href="" class="btn btn-primary btn-block">Yellowpay (Schweiz)</a>
         </p>
     </div>
 
-    <div class="modal-footer ng-scope">
-        <button class="btn ng-scope" ng-click="cancel()" onclick="window.location.href='/'" translate="">Abbrechen</button>
+    <div class="modal-footer">
+        <button class="btn" onclick="window.location.href='/'" translate="">Abbrechen</button>
     </div>
 </div>
 </body>

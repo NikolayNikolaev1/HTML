@@ -9,17 +9,17 @@
 </head>
 <body>
 <div>
-    <div class="modal-header ng-scope ng-binding">Freischaltcode</div>
-    <div class="modal-body ng-scope">
-        <form name="voucherForm" class="ng-dirty ng-invalid ng-invalid-required">
+    <div class="modal-header">Freischaltcode</div>
+    <div class="modal-body">
+        <form name="voucherForm">
             <fieldset>
-                <input type="text" placeholder="Code eingeben" class="input-block-level ng-dirty ng-invalid ng-invalid-required empty" name="code" ng-model="field.code" required="">
+                <input type="text" placeholder="Code eingeben" class="input-block-level empty" name="code" ng-model="field.code" required="">
             </fieldset>
         </form>
     </div>
-    <div class="modal-footer ng-scope">
-        <button class="btn btn-primary ng-scope" ng-click="redeem(field.code)" translate="">Einlösen</button>
-        <button class="btn ng-scope" ng-click="cancel()" translate="">Abbrechen</button>
+    <div class="modal-footer">
+        <button class="btn btn-primary" translate="">Einlösen</button>
+        <button class="btn" translate="">Abbrechen</button>
     </div>
 </div>
 </body>
