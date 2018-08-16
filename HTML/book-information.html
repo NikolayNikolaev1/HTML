@@ -10,30 +10,29 @@
 </head>
 <body>
 <div class="information-body">
-    <div class="modal-body library-detail ng-scope">
+    <div class="modal-body library-detail">
         <div class="row-fluid">
             <div class="span4 library-detail-cover-column">
-                <div class="cover-shadow cover-wrapper ng-isolate-scope" size="large">
+                <div class="cover-shadow cover-wrapper" size="large">
                     <img class="cover" src="../Images/book-cover.png">
                 </div>
             </div>
             <div class="span8 library-detail-controls-column">
-                <h4 class="media-heading title ng-binding">Tribe new</h4>
-                <h5 class="teaser ng-binding">Für die vollautomatische Anzeigenverwaltung</h5>
+                <h4 class="media-heading title">Tribe new</h4>
+                <h5 class="teaser">Für die vollautomatische Anzeigenverwaltung</h5>
                 <div class="library-detail-button-wrapper row-inline">
                     <div class="row-fluid">
                         <div class="row-fluid">
                             <div class="span6">
-                                <a id="submitBtn" href="payment.html" class="btn btn-small btn-block btn-primary ng-binding">
+                                <a id="submitBtn" href="payment.html" class="btn btn-small btn-block btn-primary">
                                     Kaufen (CHF 1.00)
                                 </a>
                             </div>
-                            <div class="span6 ng-scope" translate="">Einzelausgabe</div>
+                            <div class="span6" translate="">Einzelausgabe</div>
                         </div>
-                        <!-- Hidden Button - Lessen (ng-hide) -->
-                        <div class="row-fluid ng-hide" >
+                        <div class="row-fluid" >
                             <div class="span6">
-                                <a href="" class="btn btn-small btn-block btn-primary ng-scope" translate="">Lesen</a>
+                                <a href="" class="btn btn-small btn-block btn-primary" translate="">Lesen</a>
                             </div>
                             <div class="span6"></div>
                         </div>
@@ -65,7 +64,7 @@
                     <div style="position: relative; top: 0px; left: 0px;"></div>
                     <div class="ex1">
                         <h4>Beschreibung</h4>
-                        <p ng-bind-html="publication().issue_description | nl2br">Entscheidend für die effiziente Abwicklung der Anzeigen und ihrer Verwaltung ist deren Automatisierung. Diese muss die gesamte Wertschöpfungskette und Workflow der Anzeige umfassen. Und zwar von der Kunden- und Anzeigenverwaltung, über die Planung, die Übergabe zur Druck- oder Webausgabe bis zur Fakturierung. Mit eCrome® ADvert bieten wir eine umfassende Softwarelösung zur vollautomatischen Verwaltung, Planung und Verrechnung der Anzeigen.</p>
+                        <p >Entscheidend für die effiziente Abwicklung der Anzeigen und ihrer Verwaltung ist deren Automatisierung. Diese muss die gesamte Wertschöpfungskette und Workflow der Anzeige umfassen. Und zwar von der Kunden- und Anzeigenverwaltung, über die Planung, die Übergabe zur Druck- oder Webausgabe bis zur Fakturierung. Mit eCrome® ADvert bieten wir eine umfassende Softwarelösung zur vollautomatischen Verwaltung, Planung und Verrechnung der Anzeigen.</p>
                     </div>
                     <div style="display: block;"><div>
                         <div style="position: absolute; min-height: 30px; height: 69px; top: 0px; display: block; max-height: 120px;" oncontextmenu="return false;">
@@ -93,9 +92,12 @@
                 </div>
             </div>
         </div>
+
+        <hr>
+
         <div class="row-fluid">
             <div class="span12">
-                <h4 translate="">Weitere Ausgaben des selben Titels</h4>
+                <h4 translate="" style="margin-top: 10px; margin-bottom: 10px">Weitere Ausgaben des selben Titels</h4>
                 <div class="related">
                     <div class="ex3">
                         <div style="position: relative; top: 0px; left: 0px; width: 1071px;">
@@ -105,7 +107,15 @@
                                         <img  class="cover" src="../Images/book-cover.png">
                                     </div>
                                     <div class="caption">
-                                        <h5 class="ng-binding">Test Dominik Bollen</h5>
+                                        <h5>Test Dominik Bollen</h5>
+                                    </div>
+                                </li>
+                                <li class="thumbnail">
+                                    <div class="cover-wrapper" size="auto" ribbons="true" style="width: 92px; height: 129.95px;">
+                                        <img  class="cover" src="../Images/book-cover.png">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Test Dominik Bollen</h5>
                                     </div>
                                 </li>
                                 <li class="thumbnail">
@@ -129,14 +139,6 @@
                                         <img  class="cover" src="../Images/book-cover.png">
                                     </div>
                                     <div class="caption">
-                                        <h5 class="ng-binding">Test Dominik Bollen</h5>
-                                    </div>
-                                </li>
-                                <li class="thumbnail">
-                                    <div class="cover-wrapper" size="auto" ribbons="true" style="width: 92px; height: 129.95px;">
-                                        <img  class="cover" src="../Images/book-cover.png">
-                                    </div>
-                                    <div class="caption">
                                         <h5>Test Dominik Bollen</h5>
                                     </div>
                                 </li>
@@ -145,7 +147,7 @@
                                         <img  class="cover" src="../Images/book-cover.png">
                                     </div>
                                     <div class="caption">
-                                        <h5 class="ng-binding">Test Dominik Bollen</h5>
+                                        <h5>Test Dominik Bollen</h5>
                                     </div>
                                 </li>
                                 <li class="thumbnail">
@@ -188,7 +190,7 @@
         </div>
     </div>
     <div class="modal-footer">
-        <button class="btn btn-primary ng-scope" translate="">Schliessen</button>
+        <button class="btn btn-primary" translate="">Schliessen</button>
     </div>
 </div>
 

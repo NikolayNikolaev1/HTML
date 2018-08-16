@@ -85,6 +85,26 @@ li {
     list-style: outside none none;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+}
+
+.modal-huge hr {
+    margin: 0 -15px;
+}
+
 .modal-huge h6, .modal-huge p {
     margin: 0 0 5px;
 }
@@ -188,6 +208,10 @@ li {
     min-height: 26px;
 }
 
+.library-detail .cover-shadow {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
 .modal-huge .btn-primary, .modal-mini .btn-primary {
     color: #ffffff;
 }
@@ -268,6 +292,16 @@ li {
     border: 1px;
     overflow: hidden;
     margin: 0 5px 0 0;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    transition: all .2s ease-in-out;
 }
 
 .thumbnail {

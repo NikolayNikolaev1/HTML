@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Dropdown Menu</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="dropdown">
+            <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false">
+                Topmost Menu <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu1">
+                <li><a>Menu Option 1</a></li>
+                <li><a>Menu Option 2</a></li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Menu Option 3</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="#">Menu Option 3-1</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#">Menu Option 3-2</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Menu Option</a></li>
+                                <li><a href="#">Menu Option</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Menu Option 3-3</a></li>
+                        <li><a href="#">Menu Option 3-4</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Menu Option 4</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="#">Menu Option 4-1</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#">Menu Option 4-2</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Menu Option</a></li>
+                                <li><a href="#">Menu Option</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Menu Option 4-3</a></li>
+                        <li><a href="#">Menu Option 4-4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

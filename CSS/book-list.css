@@ -98,6 +98,7 @@ element.style {
 
 @media (max-width: 1200px) {
     .span9 {
-        width: 870px;
+        width: 700px;
+        height: 1556px;
     }
 }
