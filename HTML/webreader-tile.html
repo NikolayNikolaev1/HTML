@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../CSS/book-list.css">
+    <link rel="stylesheet" href="../CSS/book-thumbnails.css">
+    <link rel="stylesheet" href="../CSS/webreader.css">
+    <link rel="stylesheet" href="../CSS/dropdown-menu.css">
+    <title>WebReader</title>
+</head>
+<body class="app">
+<div id="wrapper" class="app-wrappe">
+    <div id="content-wrapper">
+        <div id="header" class="navbar navbar-fixed-top">
+            <header class="navbar-inner" style="width: 1200px">
+                <div class="container-fluid">
+
+                    <div class="nav-collapse collapse navbar-responsive-colapse">
+                        <nav class="pull-right">
+                            <a class="btn active" href="#/library/tile">Bibliothek</a>
+
+
+                            <a class="btn">Meine Dokumente</a>
+
+                        </nav>
+
+                        <nav>
+                            <div class="btn-group">
+                                <a href="#" class="btn active">&#9744;</a>
+                                <a href="webreader.html" class="btn">&#9776;</a>
+                            </div>
+
+                            <div class="btn-group dropdown">
+                                <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">&#9993; <b class="caret"></b></a>
+                                <!-- -->
+
+                                <!-- -->
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div id="footer" class="navbar navbar-fixed-bottom">
+            <footer class="navbar-inner">
+                <div class="container-fluid" style="padding: 5px 20px 0">
+                    <img src="../Images/logo-footer.png">
+                </div>
+            </footer>
+        </div>
+
+        <div id="main">
+            <div id="mall">
+                <div id="mallbanner" class="container-fluid" style="padding: 0">
+                    <img src="../Images/bibliotek.png">
+                </div>
+
+                <div id="mallnav" class="navbar navbar-static-top" style="top: auto">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <div class="row-fluid">
+                                <div class="offset3">
+                                    <ul class="nav">
+                                        <li>
+                                            <a href="">Favoriten</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Beliebt</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Neuheiten</a>
+                                        </li>
+                                        <li><a href="">Alle</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <form class="navbar-search pull-right">
+                                    <input id="myInput" class="search-query" type="text" placeholder="Search..">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin-left: 15px; margin-right: 15px">
+                <div class="row grid-container">
+                    <div class="span3 item1" style="height: 803px; margin-left: 30px">
+                        <div class="well sidebar-nav mall-sidenav" style="position:static; top: 103px">
+                            <ul class="nav nav-list" style="height: 130px">
+                                <li>
+                                    <a href="">Diverses</a>
+                                </li>
+                                <li>
+                                    <a href="">Informationen zu taBook</a>
+                                </li>
+                                <li>
+                                    <a href="">Kaufpublikationen</a>
+                                </li>
+                                <li>
+                                    <a href="">Show Publikationen</a>
+                                </li>
+                                <li>
+                                    <a href="">Tests<div class="pull-right">›</div></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- -->
+
+                    <div class="span9 item2" style="float: right">
+                        <div class="row-fluid">
+                            <ul class="thumbnails">
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <div class="cover-wrapper">
+                                            <img src="../Images/book-cover.png">
+                                            <div class="ribbon-wrapper">
+                                                <div class="ribbon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="caption">
+                                            <h5 class="ng-binding">Test upload</h5>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="../JavaScript/book-list-search.js"></script>
+</html>

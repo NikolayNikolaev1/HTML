@@ -1,0 +1,130 @@
+.row-fluid .thumbnails {
+    margin-left: 0;
+}
+
+.thumbnails > li {
+    margin-bottom: 20px;
+}
+
+.thumbnails {
+    list-style: none;
+}
+
+.thumbnails:before, .thumbnails:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.thumbnails:after {
+    clear: both;
+}
+
+.thumbnails .thumbnail {
+    position: relative;
+}
+
+.media .media-item.media-item, .table tr, a.carousel-control, .thumbnail {
+    cursor: pointer;
+}
+
+.thumbnail {
+    display: block;
+    width: 190px;
+    padding: 4px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    transition: all .2s ease-in-out;
+}
+
+.thumbnail {
+    border-color: #ddd;
+}
+
+.thumbnails .thumbnail .caption {
+    padding: 0;
+}
+
+.thumbnail .caption {
+    color: #555;
+}
+
+.thumbnails .thumbnail h5 {
+    color: #333;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thumbnails .thumbnail img {
+    margin: 0 auto;
+}
+
+.cover-wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 226px;
+    box-sizing: border-box;
+}
+
+.cover-wrapper .cover {
+    display: inline-block;
+    max-width: 100% !important;
+    max-height: 100%;
+}
+
+img {
+    max-width: 100%;
+    width: 160px;
+    height: 226px;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.ribbon-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ribbon {
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+}
+
+@media (min-width: 1200px) {
+    .row-fluid [class*="span"] {
+        display: block;
+        width: 200px;
+        min-height: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 1200px) {
+    .span9 {
+        width: 870px;
+    }
+}
+
+    @media (min-width: 1200px) {
+        [class*="span"] {
+            float: left;
+            min-height: 1px;
+        }
+    }
+
+@media (min-width: 1200px) {
+    .row-fluid {
+        width: 100%;
+    }
+}

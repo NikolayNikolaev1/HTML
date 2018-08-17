@@ -48,7 +48,6 @@ ul, ol {
 
 ul, menu, dir {
     display: inline;
-    -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
@@ -78,6 +77,8 @@ form {
 }
 
 .navbar-inner {
+    width: 1200px !important;
+    height: 40px !important;
     min-height: 40px;
     background-color: #ebebeb;
     background-image: linear-gradient(to bottom,#ebebeb,#ebebeb);
@@ -189,6 +190,7 @@ form {
     margin-left: 0;
     margin-bottom: 20px;
     list-style: none;
+    display: block;
 }
 
 #mallnav .nav li a {
@@ -214,14 +216,16 @@ form {
 
 .navbar {
     overflow: visible;
+    padding: 0;
 }
 
 .modal-footer .btn, .sidebar-nav .btn, .navbar .btn {
-    color: #ffffff;
+    color: white !important;
     text-shadow: none;
-    background-image: linear-gradient(to bottom,#666666,#666666);
+    background-color: rgb(102, 102, 102);
+    background-image: linear-gradient(rgb(102, 102, 102), rgb(102, 102, 102));
     background-repeat: repeat-x;
-    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
 .modal-footer .btn:active, .modal-footer .btn.active, .sidebar-nav .btn:active, .sidebar-nav .btn.active, .navbar .btn:active, .navbar .btn.active {
@@ -287,6 +291,27 @@ form {
     background-color: #666666;
 }
 
+.mall-sidenav .nav > li > a:hover, .mall-sidenav .nav > li > a:focus {
+    background-color: rgb(114, 191, 68);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#mallnav .nav li a:hover, #mallnav .nav li a:focus {
+    color: rgb(114, 191, 68);
+}
+
+.navbar .btn.active {
+    background-image: none;
+    outline: 0;
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #72bf44;
+    background-image: linear-gradient(to bottom,#72bf44,#72bf44);
+    background-repeat: repeat-x;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+}
+
 .pull-right {
     height: 35px;
     float: right;
@@ -295,6 +320,7 @@ form {
 .container {
     margin-right: auto;
     margin-left: auto;
+    padding: 0;
 }
 
 .container:before, .container:after {
@@ -403,6 +429,7 @@ form {
     .nav-collapse.collapse {
         height: 35px;
         overflow: visible !important;
+        display: block;
     }
 }
 
