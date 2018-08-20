@@ -247,7 +247,6 @@ form {
 
 .btn-group {
     position: relative;
-    display: inline-block;
     vertical-align: middle;
     white-space: nowrap;
 }
@@ -395,52 +394,83 @@ form {
     grid-row-end: 6;
 }
 
-.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+
+
+.dropdown-menu > li:hover > a, .dropdown-menu > li:focus > a, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6db841;
+    background-image: linear-gradient(to bottom,#72bf44,#66ae3c);
+    background-repeat: repeat-x;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+<!---->
+
+.dropdown-menu > li > a {
+    display: block;
+    clear: both;
+    padding: 3px 20px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.dropdown-menu {
+    font-size: unset;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
     display: block;
 }
 
-.dropdown-content > a:hover, .dropdown-content > a:focus {
-    color: rgb(255, 255, 255);
-    background-color: rgb(109, 184, 65);
-    background-image: linear-gradient(rgb(114, 191, 68), rgb(102, 174, 60));
-    text-decoration: none;
-    background-repeat: repeat-x;
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
 
-.show {display: block;}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
 
 @media screen and (min-width: 1200px) {
      .app #wrapper {
