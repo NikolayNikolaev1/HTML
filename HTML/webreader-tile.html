@@ -25,6 +25,24 @@
 
                             <a class="btn">Meine Dokumente</a>
 
+                            <div class="btn-group dropdown">
+                                <button onclick="mySecondFunction()" class="btn">&#9819;</button>
+                                <div id="myDropdown2" class="dropdown-content">
+                                    <div style="padding:5px 10px">
+                                        <button class="btn btn-block" translate="">Logout</button>
+                                    </div>
+                                    <a href="#">My Account</a>
+                                    <a href="#">eCrome® Digital AG</a>
+                                    <a href="#">Contact</a>
+                                    <a href="#">Help</a>
+                                    <a href="#">Test</a>
+                                    <a href="#">Voucher Code</a>
+                                    <a href="#">Request Support</a>
+                                    <a href="#">Shopping Cart</a>
+                                    <a href="#">Language</a>
+                                </div>
+                            </div>
+
                         </nav>
 
                         <nav>
@@ -34,10 +52,15 @@
                             </div>
 
                             <div class="btn-group dropdown">
-                                <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">&#9993; <b class="caret"></b></a>
-                                <!-- -->
-
-                                <!-- -->
+                                <button onclick="myFunction()" class="btn">&#9993;</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">Alle</a>
+                                    <a href="#">Tests</a>
+                                    <a href="#">Kaufpublikationen</a>
+                                    <a href="#">Beispiel Livio</a>
+                                    <a href="#">Interactive PDF</a>
+                                    <a href="#">Interactive PDF 2</a>
+                                </div>
                             </div>
                         </nav>
                     </div>
@@ -283,7 +306,8 @@
         </div>
     </div>
 </div>
-</body>
+<script src="../JavaScript/dropdown.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="../JavaScript/book-list-search.js"></script>
+</body>
 </html>
