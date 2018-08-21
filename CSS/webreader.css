@@ -22,6 +22,10 @@ body.app {
     position: relative;
 }
 
+header {
+    display: block;
+}
+
 div, nav, form {
     display: block;
 }
@@ -471,6 +475,21 @@ form {
     border-radius: 6px 0 6px 6px;
 }
 
+.sidenav-btn {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.w3-btn {
+    text-align: unset;
+    padding-left: 0;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* not currently supported */
+}
 
 @media screen and (min-width: 1200px) {
      .app #wrapper {
@@ -538,5 +557,114 @@ form {
 @media (min-width: 1200px) {
     .row-fluid .offset3:first-child {
         margin-left: 25.64102564102564%;
+    }
+}
+
+@media (max-width: 769px) {
+    .navbar-fixed-top {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: 724px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .span3 {
+        width: 270px;
+    }
+}
+
+@media (min-width: 1200px) {
+    [class*="span"] {
+        float: left;
+        min-height: 1px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-collapse .collapse .navbar-responsive-colapse {
+        display: none;
+    }
+}
+
+/*@media screen and (max-width: 700px) {
+    .nav {
+        display: none;
+    }
+}*/
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media (min-width: 700px) {
+    .sidenav {
+        display: none !important;
+    }
+}
+
+@media (min-width: 700px) {
+    .sidenav-btn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .responsive-hide {
+        display: none;
     }
 }

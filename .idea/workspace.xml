@@ -17,21 +17,9 @@
       <file leaf-file-name="webreader.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/webreader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,12 +27,13 @@
       <file leaf-file-name="webreader-tile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/webreader-tile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="409">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1293#1300#1" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#1;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -63,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dropdown-menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/dropdown-menu.html">
+      <file leaf-file-name="side-menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/side-menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -76,18 +65,8 @@
       <file leaf-file-name="webreader.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/webreader.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="416" column="16" lean-forward="false" selection-start-line="416" selection-start-column="16" selection-end-line="416" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dropdown-menu.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/dropdown-menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="245">
+              <caret line="482" column="7" lean-forward="false" selection-start-line="482" selection-start-column="7" selection-end-line="482" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -98,27 +77,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>span9</find>
-      <find>.cover</find>
-      <find>table</find>
-      <find>thumbnail</find>
-      <find>modal-huge p</find>
-      <find>ng-</find>
-      <find>ex2</find>
-      <find>ex1</find>
-      <find>navbar-fixed</find>
-      <find>navbar-inner</find>
       <find>wrapper</find>
       <find>padding</find>
-      <find>navbar</find>
       <find>navbar {</find>
       <find>container {</find>
       <find>ul</find>
@@ -136,6 +104,17 @@
       <find>dropdown</find>
       <find>div</find>
       <find>display: inline-block</find>
+      <find>navbar-fixed-top</find>
+      <find>navbar</find>
+      <find>sidenav</find>
+      <find>span3</find>
+      <find>header</find>
+      <find>navbar</find>
+      <find>mallban</find>
+      <find>hide</find>
+      <find>navbar-inner</find>
+      <find>mallbanne</find>
+      <find>responsive-hide</find>
     </findStrings>
     <replaceStrings>
       <replace>my-navbra</replace>
@@ -176,8 +155,10 @@
         <option value="$PROJECT_DIR$/JavaScript/dropdown.js" />
         <option value="$PROJECT_DIR$/CSS/dropdown-menu.css" />
         <option value="$PROJECT_DIR$/HTML/dropdown-menu.html" />
+        <option value="$PROJECT_DIR$/HTML/drop-down-menu.html" />
         <option value="$PROJECT_DIR$/CSS/webreader.css" />
         <option value="$PROJECT_DIR$/HTML/webreader-tile.html" />
+        <option value="$PROJECT_DIR$/JavaScript/side-menu.js" />
         <option value="$PROJECT_DIR$/HTML/webreader.html" />
       </list>
     </option>
@@ -300,12 +281,15 @@
       <workItem from="1534406374964" duration="11362000" />
       <workItem from="1534420481511" duration="7411000" />
       <workItem from="1534491494486" duration="10712000" />
-      <workItem from="1534751925751" duration="20382000" />
+      <workItem from="1534751925751" duration="22443000" />
+      <workItem from="1534777005187" duration="249000" />
+      <workItem from="1534835952887" duration="504000" />
+      <workItem from="1534837795607" duration="19089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162601000" />
+    <option name="totallyTimeSpent" value="184504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="85" width="1512" height="703" extended-state="0" />
@@ -360,20 +344,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/webreader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -576,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="87" lean-forward="true" selection-start-line="6" selection-start-column="87" selection-end-line="7" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,17 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/G Webreader/webreadervue/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2278">
           <caret line="2527" column="17" lean-forward="false" selection-start-line="2527" selection-start-column="17" selection-end-line="2527" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,23 +581,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/dropdown.js">
+    <entry file="file://$PROJECT_DIR$/JavaScript/dropdown.js" />
+    <entry file="file://$USER_HOME$/Desktop/G Webreader/webreadervue/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/dropdown-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="681" column="9" lean-forward="true" selection-start-line="681" selection-start-column="9" selection-end-line="681" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -650,26 +596,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/dropdown-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/drop-down-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="103" column="26" lean-forward="false" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/webreader.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="416" column="16" lean-forward="false" selection-start-line="416" selection-start-column="16" selection-end-line="416" selection-end-column="16" />
+        <state relative-caret-position="245">
+          <caret line="482" column="7" lean-forward="false" selection-start-line="482" selection-start-column="7" selection-end-line="482" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/side-menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/webreader-tile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="409">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1293#1300#1" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#1;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -689,21 +661,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/webreader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -9,14 +9,62 @@
     <link rel="stylesheet" href="../CSS/book-thumbnails.css">
     <link rel="stylesheet" href="../CSS/webreader.css">
     <link rel="stylesheet" href="../CSS/dropdown-menu.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>WebReader</title>
 </head>
 <body class="app">
 <div id="wrapper" class="app-wrappe">
     <div id="content-wrapper">
         <div id="header" class="navbar navbar-fixed-top">
-            <header class="navbar-inner" style="width: 1200px">
+            <header class="navbar-inner">
                 <div class="container-fluid">
+
+                    <div id="mySidenav" class="sidenav">
+
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <button class="w3-button w3-block w3-left-align" onclick="myNavFunc()">
+                            Navigation <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoNav" class="w3-hide w3-white w3-card">
+                            <a href="#" class="w3-bar-item w3-button">Bibliotek</a>
+                            <a href="#" class="w3-bar-item w3-button" style="padding-left: 0">Meine Dokumente</a>
+                        </div>
+                        <button class="w3-button w3-block w3-left-align" onclick="myLoginFunc()">
+                            Login <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoLogin" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                            <a href="#" class="w3-bar-item w3-button">Logout</a>
+                            <a href="#" class="w3-bar-item w3-button">My Account</a>
+                            <a href="#" class="w3-bar-item w3-button">eCrome Digital</a>
+                            <a href="#" class="w3-bar-item w3-button">Test</a>
+                            <a href="#" class="w3-bar-item w3-button">Contact</a>
+                            <a href="#" class="w3-bar-item w3-button">Help</a>
+                            <a href="#" class="w3-bar-item w3-button">Request Support</a>
+                            <button class="w3-button" onclick="myLangFunc()">
+                                Language <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div id="demoLang" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                <a href="#" class="w3-bar-item w3-button">English</a>
+                                <a href="#" class="w3-bar-item w3-button">German</a>
+                                <a href="#" class="w3-bar-item w3-button">Russian</a>
+                            </div>
+                        </div>
+                        <button class="w3-button w3-block w3-left-align" onclick="myFilterFunc()">
+                            Filter <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoFilter" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                            <a href="#" class="w3-bar-item w3-button">Sorting</a>
+                            <a href="#" class="w3-bar-item w3-button">Language</a>
+                            <a href="#" class="w3-bar-item w3-button">Group</a>
+
+                        </div>
+                        <a href="#">Contact</a>
+                    </div>
+
+
+                    <span class="sidenav-btn" onclick="openNav()">&#9776;</span>
+
 
                     <div class="nav-collapse collapse navbar-responsive-colapse">
                         <nav class="pull-right">
@@ -28,27 +76,69 @@
                                 </button>
                                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                                     <li class="dropdown-submenu">
-                                        <a tabindex="-1" href="#">Hover me for more options</a>
+                                        <a tabindex="-1" href="#">Sorting</a>
                                         <ul class="dropdown-menu">
-                                            <li><a tabindex="-1" href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>
+                                            <li><a tabindex="-1" href="#">
+                                                <label><input type="radio" name="radio">All</label>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <label><input type="radio" name="radio">Title</label>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <label><input type="radio" name="radio">Date</label>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <label><input type="radio" name="radio">Language</label>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <label><input type="radio" name="radio">Author</label>
+                                            </a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a tabindex="-1" href="#">Hover me for more options</a>
+                                        <a tabindex="-1" href="#">Language</a>
                                         <ul class="dropdown-menu">
-                                            <li><a tabindex="-1" href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>
+                                            <li><a tabindex="-1" href="#">
+                                                <input type="checkbox" name="language" value="African">African<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="Albanian">Albanian<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="English">English<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="German">German<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="Russian">Russian<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="Albanian">Albanian<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="Albanian">Albanian<br>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <input type="checkbox" name="language" value="Albanian">Albanian<br>
+                                            </a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a tabindex="-1" href="#">Hover me for more options</a>
+                                        <a tabindex="-1" href="#">Group</a>
                                         <ul class="dropdown-menu">
-                                            <li><a tabindex="-1" href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>
+                                            <li><a tabindex="-1" href="#">
+                                                <input type="checkbox" name="Group" >gloria<br>
+                                            </a></li>
+                                            <li><a tabindex="-1" href="#">
+                                                <input type="checkbox" name="Group" >Kompilierer<br>
+                                            </a></li>
+                                            <li><a tabindex="-1" href="#">
+                                                <input type="checkbox" name="Group" >Scitix Mieterbeiter<br>
+                                            </a></li>
+                                            <li><a tabindex="-1" href="#">
+                                                <input type="checkbox" name="Group" >Test_sko<br>
+                                            </a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -93,7 +183,10 @@
                             <div class="btn-group dropdown">
                                 <button class="btn btn-secondary" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&#9993;</button>
                                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                                    <li><a href="#">Alle</a></li>
+                                    <li>
+                                        <a href="#">Alle</a>
+                                        <i class="fa fa-check-square off"></i>
+                                    </li>
                                     <li><a href="#">Tests</a></li>
                                     <li><a href="#">Kaufpublikationen</a></li>
                                     <li><a href="#">Beispiel Livio</a></li>
@@ -119,12 +212,12 @@
 
         <div id="main">
             <div id="mall">
-                <div id="mallbanner" class="container-fluid" style="padding: 0">
+                <div id="mallbanner" class="container-fluid responsive-hide" style="padding: 0">
                     <img src="../Images/bibliotek.png">
                 </div>
 
                 <div id="mallnav" class="navbar navbar-static-top" style="top: auto">
-                    <div class="navbar-inner">
+                    <div class="navbar-inner responsive-hide">
                         <div class="container">
                             <div class="row-fluid">
                                 <div class="offset3">
@@ -154,7 +247,7 @@
 
             <div class="container" style="margin-left: 15px; margin-right: 15px">
                 <div class="row grid-container">
-                    <div class="span3 item1" style="height: 803px; margin-left: 30px">
+                    <div class="span3 item1 responsive-hide" style="height: 803px; margin-left: 30px">
                         <div class="well sidebar-nav mall-sidenav" style="position:static; top: 103px">
                             <ul class="nav nav-list" style="height: 130px">
                                 <li>
@@ -356,4 +449,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
+<script src="../JavaScript/side-menu.js"></script>
 </html>
