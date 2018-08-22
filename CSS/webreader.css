@@ -314,6 +314,15 @@ form {
     border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
 }
 
+@media screen and (max-width: 1024px){
+    .col-sm-3 {
+        padding: 0;
+    }
+    .col-sm-9 {
+        padding-left: 0;
+    }
+}
+
 .pull-right {
     height: 35px;
     float: right;
@@ -595,7 +604,6 @@ input[type="radio"] {
     [class*="span"] {
         float: left;
         min-height: 1px;
-        margin-left: 30px;
     }
 }
 
