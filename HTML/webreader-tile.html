@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../CSS/book-thumbnails.css">
     <link rel="stylesheet" href="../CSS/webreader.css">
     <link rel="stylesheet" href="../CSS/dropdown-menu.css">
+
     <title>WebReader</title>
 </head>
 <body class="app">
@@ -21,43 +22,84 @@
                     <div id="mySidenav" class="sidenav">
 
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <button class="w3-button w3-block w3-left-align" onclick="myNavFunc()">
-                            Navigation <i class="fa fa-caret-down"></i>
+
+                        <button class="dropdown-btn">Search &#10010;
                         </button>
-                        <div id="demoNav" class="w3-hide w3-white w3-card">
-                            <a href="#" class="w3-bar-item w3-button">Bibliotek</a>
-                            <a href="#" class="w3-bar-item w3-button" style="padding-left: 0">Meine Dokumente</a>
+                        <div class="dropdown-container">
+                            <form class="navbar-search pull-right">
+                                <input  class="search-query" type="text" placeholder="Search..">
+                            </form>
                         </div>
-                        <button class="w3-button w3-block w3-left-align" onclick="myLoginFunc()">
-                            Login <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div id="demoLogin" class="w3-dropdown-content w3-bar-block w3-white w3-card">
-                            <a href="#" class="w3-bar-item w3-button">Logout</a>
-                            <a href="#" class="w3-bar-item w3-button">My Account</a>
-                            <a href="#" class="w3-bar-item w3-button">eCrome Digital</a>
-                            <a href="#" class="w3-bar-item w3-button">Test</a>
-                            <a href="#" class="w3-bar-item w3-button">Contact</a>
-                            <a href="#" class="w3-bar-item w3-button">Help</a>
-                            <a href="#" class="w3-bar-item w3-button">Request Support</a>
-                            <button class="w3-button" onclick="myLangFunc()">
-                                Language <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div id="demoLang" class="w3-dropdown-content w3-bar-block w3-white w3-card">
-                                <a href="#" class="w3-bar-item w3-button">English</a>
-                                <a href="#" class="w3-bar-item w3-button">German</a>
-                                <a href="#" class="w3-bar-item w3-button">Russian</a>
+                        <button class="dropdown-btn">Navigation &#10010;</button>
+                        <div class="dropdown-container">
+                            <a href="#">Library</a>
+                            <a href="#">My Documents</a>
+                        </div>
+                        <button class="dropdown-btn">Login &#10010; </button>
+                        <div class="dropdown-container">
+                            <a href="#">Logout</a>
+                            <a href="#">My Account</a>
+                            <a href="#">eCrome Digital</a>
+                            <a href="#">Test</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Help</a>
+                            <a href="#">Voucher Code</a>
+                            <a href="#">Request Support</a>
+                            <a class="dropdown-btn" style="color: #818181">Language &#10010;
+                            </a>
+                            <div class="dropdown-container">
+                                <a href="#">English</a>
+                                <a href="#">Deutsch</a>
+                                <a href="#">Spanish</a>
+                                <a href="#">Russian</a>
                             </div>
                         </div>
-                        <button class="w3-button w3-block w3-left-align" onclick="myFilterFunc()">
-                            Filter <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div id="demoFilter" class="w3-dropdown-content w3-bar-block w3-white w3-card">
-                            <a href="#" class="w3-bar-item w3-button">Sorting</a>
-                            <a href="#" class="w3-bar-item w3-button">Language</a>
-                            <a href="#" class="w3-bar-item w3-button">Group</a>
-
+                        <button class="dropdown-btn">Filter &#10010; </button>
+                        <div class="dropdown-container">
+                            <a class="dropdown-btn" style="color: #818181">Sorting &#10010;
+                            </a>
+                            <div class="dropdown-container">
+                                <a href="#"><input type="radio" name="radio">All</a>
+                                <a href="#"><input type="radio" name="radio">Title</a>
+                                <a href="#"><input type="radio" name="radio">Date</a>
+                                <a href="#"><input type="radio" name="radio">Language</a>
+                                <a href="#"><input type="radio" name="radio">Author</a>
+                            </div>
+                            <a class="dropdown-btn" style="color: #818181">Language &#10010;
+                            </a>
+                            <div class="dropdown-container">
+                                <a href="#"><input type="checkbox">Albanian</a>
+                                <a href="#"><input type="checkbox">German</a>
+                                <a href="#"><input type="checkbox">English</a>
+                                <a href="#"><input type="checkbox">Russian</a>
+                                <a href="#"><input type="checkbox">Neitherlandish</a>
+                            </div>
+                            <a class="dropdown-btn" style="color: #818181">Group &#10010;
+                            </a>
+                            <div class="dropdown-container">
+                                <a href="#"><input type="checkbox">gloria</a>
+                                <a href="#"><input type="checkbox">Kompilierer</a>
+                                <a href="#"><input type="checkbox">Scitix</a>
+                                <a href="#"><input type="checkbox">Test_sko</a>
+                            </div>
                         </div>
-                        <a href="#">Contact</a>
+                        <button class="dropdown-btn">Mall-Filter &#10010; </button>
+                        <div class="dropdown-container">
+                            <a href="#">All</a>
+                            <a href="#">Featured</a>
+                            <a href="#">Topseller</a>
+                            <a href="#">Arrivals</a>
+                        </div>
+                        <button class="dropdown-btn">Topics &#10010; </button>
+                        <div class="dropdown-container">
+                            <a href="#">All</a>
+                            <a href="#">DiversesEN</a>
+                            <a href="#">Information for taBook</a>
+                            <a href="#">Kaufpublicationen</a>
+                            <a href="#">Show publications</a>
+                            <a href="#">Test</a>
+                        </div>
+
                     </div>
 
 
@@ -439,14 +481,12 @@
     </div>
 </div>
 <script src="../JavaScript/book-list-search.js"></script>
-<script src="../JavaScript/dropdown.js"></script>
+<script src="../JavaScript/side-menu.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<script src="../JavaScript/book-list-search.js"></script>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-
-<script src="../JavaScript/side-menu.js"></script>
 </html>

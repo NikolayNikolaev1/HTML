@@ -6,50 +6,18 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-function myNavFunc() {
-    var x = document.getElementById("demoNav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        x.previousElementSibling.className += " w3-green";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-        x.previousElementSibling.className =
-            x.previousElementSibling.className.replace(" w3-green", "");
-    }
-}
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
 
-function myLoginFunc() {
-    var x = document.getElementById("demoLogin");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        x.previousElementSibling.className += " w3-green";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-        x.previousElementSibling.className =
-            x.previousElementSibling.className.replace(" w3-green", "");
-    }
-}
-
-function myLangFunc() {
-    var x = document.getElementById("demoLang");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        x.previousElementSibling.className += " w3-green";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-        x.previousElementSibling.className =
-            x.previousElementSibling.className.replace(" w3-green", "");
-    }
-}
-
-function myFilterFunc() {
-    var x = document.getElementById("demoFilter");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        x.previousElementSibling.className += " w3-green";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-        x.previousElementSibling.className =
-            x.previousElementSibling.className.replace(" w3-green", "");
-    }
+for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    });
 }
